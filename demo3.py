@@ -1,0 +1,40 @@
+l1=[1,2,3,4,5,'ee',4.5]
+print(l1)
+l1= list(range(10))
+l1= list(range(2,10))
+t = (1,2,3,4)
+li=list(t)
+l1.append(7)
+print(l1)
+li.insert(2,10)
+print(li)
+l2=['a','b','c']
+l1.extend(l2)
+l1.extend(t)
+print(l1)
+del l1[2]
+print(l1)
+del l1[5:8]
+print(l1)
+l2=l1[3:7]
+print(l2)
+l1[0]=9
+print(l1)
+c= l1.count(3)
+print('Count ',c)
+i = l1.index(3)
+print(i)
+e = l1.pop()
+print(e)
+print(l1)
+l1.reverse()
+print(l1)
+l1=[1,4,6,3,6,8,5,8]
+l1.sort()
+print(l1)
+l1.reverse()
+print(l1)
+t1 =(1,2,4,6,'a')
+print(t1)
+t1 =tuple([13,2,4,5,6])
+print(t1)
