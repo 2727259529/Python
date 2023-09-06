@@ -1,0 +1,19 @@
+print('-'*20)
+l=[1,2,3,4,5,6,7,8,9]
+print(l[1])
+print(l[1:8:2])
+l2=['a','b','c']
+l3=l+l2
+print(l3)
+l=[1,2,3]
+l2=l*3
+print(l2)
+print(3 in l)
+print(len(l))
+print(max(l))
+print(min(l))
+a,b,c=[1,'a',10]
+print(a)
+print(b)
+print(c)
+a,b,c,_=[1,2,3,4]
