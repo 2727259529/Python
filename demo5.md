@@ -13,6 +13,7 @@
 - 通过key删除key-value
 - 通过key修改key-value
 - 通过key判断对应的元素是否存在
+
 	d = {'a': 100, 'b': 200}
 	print(d['a'])
 	d['c'] = 300
